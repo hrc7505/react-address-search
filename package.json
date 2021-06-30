@@ -2,7 +2,7 @@
   "name": "react-canada-address-search",
   "author": "mintyfusion studios",
   "homepage": "https://github.com/hrc7505/react-canada-address-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "license": "",
   "description": "This is a reactJs component for canada post API address search.",
