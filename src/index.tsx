@@ -41,13 +41,26 @@ function CanadaAddressSearch(props: ICanadaAddressSearchProps): JSX.Element {
     }, [country]);
 
     return (
-        <input
-            disabled={disabled}
-            data-error={errorMessage ? true : false}
-            id={fieldId}
-            value={props.value}
-            onChange={props.onChange}
-        />
+        <div
+            className={props.rootClassName}
+            has-error={errorMessage ? "true" : "false"}
+            is-required={props.required ? "true" : "false"}
+        >
+            {props.label &&
+                <label className={props.labelClassName}>{props.label}</label>
+            }
+            <input
+                disabled={disabled}
+                id={fieldId}
+                value={props.value}
+                onChange={props.onChange}
+                className={props.inputClassName}
+                required={props.required}
+            />
+            {props.errorMessage &&
+                <div className={props.errorMessageClassName}>{props.errorMessage}</div>
+            }
+        </div>
     );
 }
 
