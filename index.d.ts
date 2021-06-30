@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import "./src/pca";
+import "./pca";
 
 export interface ICanadaAddressSearchProps {
     apiKey: string;

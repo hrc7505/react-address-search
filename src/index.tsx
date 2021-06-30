@@ -1,6 +1,6 @@
-import * as React from "react";
+import React from "react";
 
-import { ICanadaAddressSearchProps } from '../index';
+import { ICanadaAddressSearchProps } from "..";
 
 function CanadaAddressSearch(props: ICanadaAddressSearchProps): JSX.Element {
     const controlRef = React.useRef<pca.Address>();
