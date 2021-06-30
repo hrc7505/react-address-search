@@ -2,7 +2,7 @@ import * as React from "react";
 
 import "./pca";
 
-export interface ICanadaAddressSearchProps {
+export interface IAddressSearchProps {
     /**
      * Used to access AddressComplete.
      */
@@ -74,8 +74,8 @@ export interface ICanadaAddressSearchProps {
     onPlaceSelect?(address: pca.IPopulatedAddress): void;
 }
 
-declare function CanadaAddressSearch(props: ICanadaAddressSearchProps): JSX.Element;
+declare function AddressSearch(props: IAddressSearchProps): JSX.Element;
 
-declare module "react-canada-address-search" { }
+declare module "react-address-search" { }
 
-export default CanadaAddressSearch;
+export default AddressSearch;

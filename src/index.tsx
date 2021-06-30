@@ -1,8 +1,8 @@
 import React from "react";
 
-import { ICanadaAddressSearchProps } from "..";
+import { IAddressSearchProps } from "..";
 
-function CanadaAddressSearch(props: ICanadaAddressSearchProps): JSX.Element {
+function AddressSearch(props: IAddressSearchProps): JSX.Element {
     const controlRef = React.useRef<pca.Address>();
     const { apiKey, disabled, country, errorMessage, fieldId, onPlaceSelect } = props;
 
@@ -64,7 +64,7 @@ function CanadaAddressSearch(props: ICanadaAddressSearchProps): JSX.Element {
     );
 }
 
-export default React.memo(CanadaAddressSearch);
+export default React.memo(AddressSearch);
 
 const BASE_URL_CSS = "https://ws1.postescanada-canadapost.ca/css/addresscomplete-2.30.min.css?key=";
 const BASE_URL_JS = "https://ws1.postescanada-canadapost.ca/js/addresscomplete-2.30.min.js?key=";

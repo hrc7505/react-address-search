@@ -1,11 +1,11 @@
 {
-  "name": "react-canada-address-search",
+  "name": "react-address-search",
   "author": "mintyfusion studios",
   "homepage": "https://github.com/hrc7505/react-canada-address-search",
-  "version": "1.0.9",
+  "version": "1.0.0",
   "main": "lib/index.js",
   "license": "",
-  "description": "This is a reactJs component for canada post API address search.",
+  "description": "This is a ReactJs component for canada post API address search.",
   "keywords": [
     "Address",
     "Autocomplete",
